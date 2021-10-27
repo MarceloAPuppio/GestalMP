@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <form id="form-Auth">
+        <input type="text" name="Nombre" value="Test">
+        <input type="password" name="Password" id="" value="Password">
+        <input type="hidden" name="Roles" value="[]">
+        <input type="submit">
+    </form>
+</body>
+<script>
+    const formAuth= document.getElementById("form-Auth");
+    formAuth.addEventListener('submit', (e)=>{
+        e.preventDefault()
+        let body= new FormData(formAuth)
+        fetch('./api/user/authenticate', {
+            method:'POST',
+            body
+        })
+        .then(res=>res.json())
+        .then(({Token, Data})=>{
+            sessionStorage.setItem('Token',`bearer ${Token}`)
+            sessionStorage.setItem('Data',JSON.stringify(Data))
+
+            window.location.href='home.html';            
+        })
+        /*
+        form.addEventListener('submit', (e) => {
+                      e.preventDefault();
+            formData = new FormData(form);
+            fetch('./api/home/authenticate',
+                {
+                    method: "POST",
+                    body: formData
+                }
+            ).then(data => data.text()).
+                then(res => {
+                    fetch("./api/home",
+                        {
+                            headers: {
+                                "authorization": `bearer ${res}`
+                            }
+                        })
+                        .then(res => res.json()).then(res=>console.log(res))
+                })
+                
+        }
+        */
+    })
+</script>
+</html>

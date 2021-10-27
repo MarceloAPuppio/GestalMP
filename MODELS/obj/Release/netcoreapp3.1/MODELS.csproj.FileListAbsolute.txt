@@ -1,0 +1,8 @@
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\bin\Release\netcoreapp3.1\MODELS.deps.json
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\bin\Release\netcoreapp3.1\MODELS.dll
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\bin\Release\netcoreapp3.1\MODELS.pdb
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\obj\Release\netcoreapp3.1\MODELS.AssemblyInfoInputs.cache
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\obj\Release\netcoreapp3.1\MODELS.AssemblyInfo.cs
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\obj\Release\netcoreapp3.1\MODELS.dll
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\obj\Release\netcoreapp3.1\MODELS.pdb
+C:\Users\marce\Documents\Develop\Gestalmp\MODELS\obj\Release\netcoreapp3.1\MODELS.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\bin\Release\netcoreapp3.1\BLL.deps.json
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\bin\Release\netcoreapp3.1\BLL.dll
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\bin\Release\netcoreapp3.1\BLL.pdb
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\bin\Release\netcoreapp3.1\DAL.dll
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\bin\Release\netcoreapp3.1\MODELS.dll
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\bin\Release\netcoreapp3.1\DAL.pdb
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\bin\Release\netcoreapp3.1\MODELS.pdb
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\obj\Release\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\obj\Release\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\obj\Release\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\obj\Release\netcoreapp3.1\BLL.csproj.CopyComplete
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\obj\Release\netcoreapp3.1\BLL.dll
+C:\Users\marce\Documents\Develop\Gestalmp\BLL\obj\Release\netcoreapp3.1\BLL.pdb

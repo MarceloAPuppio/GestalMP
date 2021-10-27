@@ -1,0 +1,11 @@
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\bin\Release\netcoreapp3.1\DAL.deps.json
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\bin\Release\netcoreapp3.1\DAL.dll
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\bin\Release\netcoreapp3.1\DAL.pdb
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\bin\Release\netcoreapp3.1\MODELS.dll
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\bin\Release\netcoreapp3.1\MODELS.pdb
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\obj\Release\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\obj\Release\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\obj\Release\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\obj\Release\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\obj\Release\netcoreapp3.1\DAL.dll
+C:\Users\marce\Documents\Develop\Gestalmp\DAL\obj\Release\netcoreapp3.1\DAL.pdb

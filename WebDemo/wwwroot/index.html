@@ -1,0 +1,95 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    <!-- ✍ FONTS ✍ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- 🎨 STYLES 🎨 -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- MATERIAL ICONS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <picture class="header__Logo">
+            <img src="./images/logo.png" alt="" class="header__Logo-Image">
+            <figcaption class="header__Logo-Name">Tuppy</figcaption>
+        </picture>
+        <nav class="nav">
+            <ul class="nav__list">
+               <li class="nav__list__item nav__list__item--active"><span class="material-icons">storage</span>Database</li>
+               <li class="nav__list__item"><span class="material-icons">settings</span>Settings</li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="database">
+        <div class="database-header">
+            <h2 class="database-title">Database</h2>
+                <ul class="database-list">
+                    <li class="database-list__item" >Alumnos</li>
+                    <li class="database-list__item">Profesores</li>
+                    <li class="database-list__item database-list__item--selected">Staff</li>
+                </ul>
+        </div>
+        <div class="spinner"></div>
+        <div class="database-table">
+            <table class="table">
+                <thead>
+                    <tr >
+                        <th class="column column-1">Nombre</th>
+                        <th class="column column-2">ID</th>
+                        <th class="column column-3">Mail</th>
+                        <th class="column column-4">Carrera</th>
+                        <th class="column column-5">otros</th>
+                    </tr>
+                </thead>
+                <tbody id="tBody">                
+                </tbody>
+            </table>
+        </div>
+        </section>
+    </main>
+    <aside class="aside">
+        <div class="aside__Login">
+            <picture class="aside__Login__Picture">
+                <img class="aside__Login__Picture__Img" src="https://source.unsplash.com/random/30x30" alt="">
+            </picture>
+            <div class="aside__loggedInfo">
+                <span class="aside__logged-name">Usuairo Logueado</span>
+                <select name="roles" id="logged-roles" class="aside__Login__Select">
+                    <option class="aside__Login__Option" value="">Administrador</option>
+                    <option class="aside__Login__Option" value="">Alumno</option>
+                </select>
+            </div>
+            <span class="material-icons exit">
+                logout
+            </span>
+        </div>
+        <div class="aside__preview">
+            <p>ID 123456</p>
+            <picture>
+                <img src="https://source.unsplash.com/random/50x50" alt="">
+                <figcaption>User name</figcaption>
+            </picture>
+            <p>otros datos</p>
+            <div class="preview__socialMedia">
+                <ul>
+                    <li><a href="">Mesaje</a></li>
+                    <li><a href="">Llamar</a></li>
+                    <li><a href="">Mail </a></li>    
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <footer class="footer">sdsd</footer>
+    <script src="./scripts/index.js" type="module"></script>
+</body>
+</html>
